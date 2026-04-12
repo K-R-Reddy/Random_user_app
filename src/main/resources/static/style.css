@@ -2,6 +2,9 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 20%;
+  background-color: black;
+  padding: 10px;
+  color: white;
 }
 
 .card:hover {
@@ -10,4 +13,19 @@
 
 .container {
   padding: 2px 16px;
+}
+button {
+  background-color: #8A2BE2; 
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: linear-gradient(to bottom, #8A2BE2, #9400D3); 
+  box-shadow: 0 0 20px #8A2BE2, 0 0 30px #9400D3;
 }
